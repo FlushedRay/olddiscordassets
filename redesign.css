@@ -70,7 +70,12 @@
     }
 
     /* add old discord text logo */
-   
+         background-image: url("");
+      background-repeat: no-repeat;
+      background-position-y: center;
+      left: calc(var(--space-sm) - 3px);
+      top: 1px;
+
       /* remove redundant server name/icon */
       > .title_bb0d86 {
         display: none;
